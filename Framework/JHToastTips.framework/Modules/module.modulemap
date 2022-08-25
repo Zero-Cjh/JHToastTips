@@ -1,0 +1,4 @@
+framework module JHToastTips {
+  header "JHToastTips-Swift.h"
+  requires objc
+}

@@ -7,25 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2AB475E28B3884F007ACD03 /* JHToast_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475528B3884F007ACD03 /* JHToast_Font.swift */; };
-		F2AB475F28B3884F007ACD03 /* JHToast_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475628B3884F007ACD03 /* JHToast_Color.swift */; };
-		F2AB476028B3884F007ACD03 /* JHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475728B3884F007ACD03 /* JHToast.swift */; };
-		F2AB476128B3884F007ACD03 /* JHToast_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475928B3884F007ACD03 /* JHToast_MainView_Method.swift */; };
-		F2AB476228B3884F007ACD03 /* JHToast_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475A28B3884F007ACD03 /* JHToast_MainView.swift */; };
-		F2AB476328B3884F007ACD03 /* JHToast_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475B28B3884F007ACD03 /* JHToast_Method.swift */; };
-		F2AB476428B3884F007ACD03 /* JHToast_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB475D28B3884F007ACD03 /* JHToast_Header.swift */; };
-		F2AB476728B38863007ACD03 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2AB476628B38863007ACD03 /* SnapKit */; };
+		9EB65CF5C49DBD0BA2D2191F /* Pods_JHToastTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB152D6EFC2ECB8764371BC /* Pods_JHToastTips.framework */; };
+		F2FDB78E28B769F200307DD2 /* JHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78528B769F200307DD2 /* JHToast.swift */; };
+		F2FDB78F28B769F200307DD2 /* JHToast_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */; };
+		F2FDB79028B769F200307DD2 /* JHToast_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */; };
+		F2FDB79228B769F200307DD2 /* JHToast_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */; };
+		F2FDB79428B76AA900307DD2 /* JHToast_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CB152D6EFC2ECB8764371BC /* Pods_JHToastTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHToastTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830D196D3247A0AAFE4ECC9B /* Pods-JHToastTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHToastTips.debug.xcconfig"; path = "Target Support Files/Pods-JHToastTips/Pods-JHToastTips.debug.xcconfig"; sourceTree = "<group>"; };
+		C44AFEC31ADED41FF3BF223D /* Pods-JHToastTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHToastTips.release.xcconfig"; path = "Target Support Files/Pods-JHToastTips/Pods-JHToastTips.release.xcconfig"; sourceTree = "<group>"; };
 		F2AB474828B38838007ACD03 /* JHToastTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHToastTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2AB475528B3884F007ACD03 /* JHToast_Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Font.swift; sourceTree = "<group>"; };
-		F2AB475628B3884F007ACD03 /* JHToast_Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Color.swift; sourceTree = "<group>"; };
-		F2AB475728B3884F007ACD03 /* JHToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast.swift; sourceTree = "<group>"; };
-		F2AB475928B3884F007ACD03 /* JHToast_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView_Method.swift; sourceTree = "<group>"; };
-		F2AB475A28B3884F007ACD03 /* JHToast_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView.swift; sourceTree = "<group>"; };
-		F2AB475B28B3884F007ACD03 /* JHToast_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Method.swift; sourceTree = "<group>"; };
-		F2AB475D28B3884F007ACD03 /* JHToast_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Header.swift; sourceTree = "<group>"; };
+		F2FDB78528B769F200307DD2 /* JHToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast.swift; sourceTree = "<group>"; };
+		F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView_Method.swift; sourceTree = "<group>"; };
+		F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView.swift; sourceTree = "<group>"; };
+		F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Header.swift; sourceTree = "<group>"; };
+		F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHToast_ThemeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +32,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AB476728B38863007ACD03 /* SnapKit in Frameworks */,
+				9EB65CF5C49DBD0BA2D2191F /* Pods_JHToastTips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016EDF087A551146FD5BF74D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				830D196D3247A0AAFE4ECC9B /* Pods-JHToastTips.debug.xcconfig */,
+				C44AFEC31ADED41FF3BF223D /* Pods-JHToastTips.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8747A6F40E110B38AEC1924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB152D6EFC2ECB8764371BC /* Pods_JHToastTips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2AB473E28B38838007ACD03 = {
 			isa = PBXGroup;
 			children = (
-				F2AB475228B3884F007ACD03 /* Sources */,
+				F2FDB78128B769F200307DD2 /* JHToastTips */,
 				F2AB474928B38838007ACD03 /* Products */,
+				016EDF087A551146FD5BF74D /* Pods */,
+				B8747A6F40E110B38AEC1924 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,48 +74,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2AB475228B3884F007ACD03 /* Sources */ = {
+		F2FDB78128B769F200307DD2 /* JHToastTips */ = {
 			isa = PBXGroup;
 			children = (
-				F2AB475328B3884F007ACD03 /* JHToastTips */,
+				F2FDB78528B769F200307DD2 /* JHToast.swift */,
+				F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */,
+				F2FDB78628B769F200307DD2 /* View */,
+				F2FDB78A28B769F200307DD2 /* Header */,
 			);
-			path = Sources;
+			name = JHToastTips;
+			path = Package/Sources/JHToastTips;
 			sourceTree = "<group>";
 		};
-		F2AB475328B3884F007ACD03 /* JHToastTips */ = {
+		F2FDB78628B769F200307DD2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F2AB475728B3884F007ACD03 /* JHToast.swift */,
-				F2AB475B28B3884F007ACD03 /* JHToast_Method.swift */,
-				F2AB475428B3884F007ACD03 /* Style */,
-				F2AB475828B3884F007ACD03 /* View */,
-				F2AB475C28B3884F007ACD03 /* Header */,
-			);
-			path = JHToastTips;
-			sourceTree = "<group>";
-		};
-		F2AB475428B3884F007ACD03 /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				F2AB475528B3884F007ACD03 /* JHToast_Font.swift */,
-				F2AB475628B3884F007ACD03 /* JHToast_Color.swift */,
-			);
-			path = Style;
-			sourceTree = "<group>";
-		};
-		F2AB475828B3884F007ACD03 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F2AB475928B3884F007ACD03 /* JHToast_MainView_Method.swift */,
-				F2AB475A28B3884F007ACD03 /* JHToast_MainView.swift */,
+				F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */,
+				F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F2AB475C28B3884F007ACD03 /* Header */ = {
+		F2FDB78A28B769F200307DD2 /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				F2AB475D28B3884F007ACD03 /* JHToast_Header.swift */,
+				F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -119,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2AB474F28B38838007ACD03 /* Build configuration list for PBXNativeTarget "JHToastTips" */;
 			buildPhases = (
+				D1868A2B96A8BDF3BCDDABDF /* [CP] Check Pods Manifest.lock */,
 				F2AB474328B38838007ACD03 /* Headers */,
 				F2AB474428B38838007ACD03 /* Sources */,
 				F2AB474528B38838007ACD03 /* Frameworks */,
@@ -130,7 +132,6 @@
 			);
 			name = JHToastTips;
 			packageProductDependencies = (
-				F2AB476628B38863007ACD03 /* SnapKit */,
 			);
 			productName = JHToastTips;
 			productReference = F2AB474828B38838007ACD03 /* JHToastTips.framework */;
@@ -160,7 +161,6 @@
 			);
 			mainGroup = F2AB473E28B38838007ACD03;
 			packageReferences = (
-				F2AB476528B38863007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F2AB474928B38838007ACD03 /* Products */;
 			projectDirPath = "";
@@ -181,18 +181,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D1868A2B96A8BDF3BCDDABDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHToastTips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2AB474428B38838007ACD03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AB476428B3884F007ACD03 /* JHToast_Header.swift in Sources */,
-				F2AB476328B3884F007ACD03 /* JHToast_Method.swift in Sources */,
-				F2AB476128B3884F007ACD03 /* JHToast_MainView_Method.swift in Sources */,
-				F2AB475E28B3884F007ACD03 /* JHToast_Font.swift in Sources */,
-				F2AB475F28B3884F007ACD03 /* JHToast_Color.swift in Sources */,
-				F2AB476028B3884F007ACD03 /* JHToast.swift in Sources */,
-				F2AB476228B3884F007ACD03 /* JHToast_MainView.swift in Sources */,
+				F2FDB79228B769F200307DD2 /* JHToast_Header.swift in Sources */,
+				F2FDB78F28B769F200307DD2 /* JHToast_MainView_Method.swift in Sources */,
+				F2FDB78E28B769F200307DD2 /* JHToast.swift in Sources */,
+				F2FDB79428B76AA900307DD2 /* JHToast_ThemeStyle.swift in Sources */,
+				F2FDB79028B769F200307DD2 /* JHToast_MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +344,7 @@
 		};
 		F2AB475028B38838007ACD03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830D196D3247A0AAFE4ECC9B /* Pods-JHToastTips.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -332,6 +356,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,6 +375,7 @@
 		};
 		F2AB475128B38838007ACD03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44AFEC31ADED41FF3BF223D /* Pods-JHToastTips.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -361,6 +387,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,25 +426,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F2AB476528B38863007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F2AB476628B38863007ACD03 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2AB476528B38863007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2AB473F28B38838007ACD03 /* Project object */;
 }
