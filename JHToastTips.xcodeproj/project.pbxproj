@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9EB65CF5C49DBD0BA2D2191F /* Pods_JHToastTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB152D6EFC2ECB8764371BC /* Pods_JHToastTips.framework */; };
-		F2FDB78E28B769F200307DD2 /* JHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78528B769F200307DD2 /* JHToast.swift */; };
-		F2FDB78F28B769F200307DD2 /* JHToast_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */; };
-		F2FDB79028B769F200307DD2 /* JHToast_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */; };
-		F2FDB79228B769F200307DD2 /* JHToast_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */; };
-		F2FDB79428B76AA900307DD2 /* JHToast_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */; };
+		F24E86EB28B8701600D2F39D /* JHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86E428B8701600D2F39D /* JHToast.swift */; };
+		F24E86EC28B8701600D2F39D /* JHToast_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86E628B8701600D2F39D /* JHToast_MainView_Method.swift */; };
+		F24E86ED28B8701600D2F39D /* JHToast_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86E728B8701600D2F39D /* JHToast_MainView.swift */; };
+		F24E86EE28B8701600D2F39D /* JHToast_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86E828B8701600D2F39D /* JHToast_ThemeStyle.swift */; };
+		F24E86EF28B8701600D2F39D /* JHToast_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E86EA28B8701600D2F39D /* JHToast_Header.swift */; };
+		F2DEA09228BDB20000C5CCE2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2DEA09128BDB20000C5CCE2 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CB152D6EFC2ECB8764371BC /* Pods_JHToastTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHToastTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		830D196D3247A0AAFE4ECC9B /* Pods-JHToastTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHToastTips.debug.xcconfig"; path = "Target Support Files/Pods-JHToastTips/Pods-JHToastTips.debug.xcconfig"; sourceTree = "<group>"; };
 		C44AFEC31ADED41FF3BF223D /* Pods-JHToastTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHToastTips.release.xcconfig"; path = "Target Support Files/Pods-JHToastTips/Pods-JHToastTips.release.xcconfig"; sourceTree = "<group>"; };
+		F24E86E428B8701600D2F39D /* JHToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast.swift; sourceTree = "<group>"; };
+		F24E86E628B8701600D2F39D /* JHToast_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView_Method.swift; sourceTree = "<group>"; };
+		F24E86E728B8701600D2F39D /* JHToast_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView.swift; sourceTree = "<group>"; };
+		F24E86E828B8701600D2F39D /* JHToast_ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_ThemeStyle.swift; sourceTree = "<group>"; };
+		F24E86EA28B8701600D2F39D /* JHToast_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Header.swift; sourceTree = "<group>"; };
 		F2AB474828B38838007ACD03 /* JHToastTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHToastTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2FDB78528B769F200307DD2 /* JHToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast.swift; sourceTree = "<group>"; };
-		F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView_Method.swift; sourceTree = "<group>"; };
-		F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_MainView.swift; sourceTree = "<group>"; };
-		F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHToast_Header.swift; sourceTree = "<group>"; };
-		F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHToast_ThemeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB65CF5C49DBD0BA2D2191F /* Pods_JHToastTips.framework in Frameworks */,
+				F2DEA09228BDB20000C5CCE2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +58,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F24E86E328B8701600D2F39D /* JHToastTips */ = {
+			isa = PBXGroup;
+			children = (
+				F24E86E428B8701600D2F39D /* JHToast.swift */,
+				F24E86E828B8701600D2F39D /* JHToast_ThemeStyle.swift */,
+				F24E86E528B8701600D2F39D /* View */,
+				F24E86E928B8701600D2F39D /* Header */,
+			);
+			name = JHToastTips;
+			path = Sources/JHToastTips;
+			sourceTree = "<group>";
+		};
+		F24E86E528B8701600D2F39D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F24E86E628B8701600D2F39D /* JHToast_MainView_Method.swift */,
+				F24E86E728B8701600D2F39D /* JHToast_MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F24E86E928B8701600D2F39D /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F24E86EA28B8701600D2F39D /* JHToast_Header.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		F2AB473E28B38838007ACD03 = {
 			isa = PBXGroup;
 			children = (
-				F2FDB78128B769F200307DD2 /* JHToastTips */,
+				F24E86E328B8701600D2F39D /* JHToastTips */,
 				F2AB474928B38838007ACD03 /* Products */,
 				016EDF087A551146FD5BF74D /* Pods */,
 				B8747A6F40E110B38AEC1924 /* Frameworks */,
@@ -72,35 +103,6 @@
 				F2AB474828B38838007ACD03 /* JHToastTips.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F2FDB78128B769F200307DD2 /* JHToastTips */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB78528B769F200307DD2 /* JHToast.swift */,
-				F2FDB79328B76AA900307DD2 /* JHToast_ThemeStyle.swift */,
-				F2FDB78628B769F200307DD2 /* View */,
-				F2FDB78A28B769F200307DD2 /* Header */,
-			);
-			name = JHToastTips;
-			path = Package/Sources/JHToastTips;
-			sourceTree = "<group>";
-		};
-		F2FDB78628B769F200307DD2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB78728B769F200307DD2 /* JHToast_MainView_Method.swift */,
-				F2FDB78828B769F200307DD2 /* JHToast_MainView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F2FDB78A28B769F200307DD2 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB78B28B769F200307DD2 /* JHToast_Header.swift */,
-			);
-			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +134,7 @@
 			);
 			name = JHToastTips;
 			packageProductDependencies = (
+				F2DEA09128BDB20000C5CCE2 /* SnapKit */,
 			);
 			productName = JHToastTips;
 			productReference = F2AB474828B38838007ACD03 /* JHToastTips.framework */;
@@ -161,6 +164,7 @@
 			);
 			mainGroup = F2AB473E28B38838007ACD03;
 			packageReferences = (
+				F2DEA09028BDB20000C5CCE2 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F2AB474928B38838007ACD03 /* Products */;
 			projectDirPath = "";
@@ -211,11 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FDB79228B769F200307DD2 /* JHToast_Header.swift in Sources */,
-				F2FDB78F28B769F200307DD2 /* JHToast_MainView_Method.swift in Sources */,
-				F2FDB78E28B769F200307DD2 /* JHToast.swift in Sources */,
-				F2FDB79428B76AA900307DD2 /* JHToast_ThemeStyle.swift in Sources */,
-				F2FDB79028B769F200307DD2 /* JHToast_MainView.swift in Sources */,
+				F24E86ED28B8701600D2F39D /* JHToast_MainView.swift in Sources */,
+				F24E86EC28B8701600D2F39D /* JHToast_MainView_Method.swift in Sources */,
+				F24E86EB28B8701600D2F39D /* JHToast.swift in Sources */,
+				F24E86EF28B8701600D2F39D /* JHToast_Header.swift in Sources */,
+				F24E86EE28B8701600D2F39D /* JHToast_ThemeStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2DEA09028BDB20000C5CCE2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2DEA09128BDB20000C5CCE2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2DEA09028BDB20000C5CCE2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2AB473F28B38838007ACD03 /* Project object */;
 }
